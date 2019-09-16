@@ -1,0 +1,16 @@
+<!-- 设置月账单 -->
+<view class="page_container single-page">
+  <view class="set-treasury-title">请输入您的可用资产{{treasury}}元</view>
+  <input class="first-input" placeholder="整数位" type="number" bindinput="inputTreasuryInteger"></input>
+  <input class="sencond-input" placeholder="小数位" type="number" bindinput="inputTreasuryDecimal"></input>
+  <view class="set-budget-title">请输入您的预算{{budget}}元</view>
+  <view class="set-budget-tip">预算应低于资产，若您的预算增加，可重新设置预算</view>
+  <input class="first-input" placeholder="整数位" type="number" bindinput="inputBudgetInteger"></input>
+  <input class="sencond-input" placeholder="小数位" type="number" bindinput="inputBudgetDecimal"></input>
+  <view>预算占比{{per}}</view>
+  <view class="base_progress">
+    <view style="width: {{per}}"></view>
+  </view>
+  <view class="next-step" bindtap="nextStep">下一步</view>
+</view>
+

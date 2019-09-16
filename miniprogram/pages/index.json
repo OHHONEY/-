@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "它合梦魇"
+    "navigationBarTitleText": "它合梦魇",
+    "navigationBarBackgroundColor": "#EAF1F5",
+    "disableScroll": true
 }

@@ -1,15 +1,18 @@
-<!-- 初始化页面 -->
-
 <!-- 头像 -->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="page_container single-page">
+    <view class="userinfo">
+        <button class="init_default-avatar" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"
+            bindgetuserinfo="getUserInfo"></button>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </block>
+    </view>
+    <view class="usermotto">
+        <navigator url="/pages/homepage/homepage">
+            <text class="user-motto">{{motto}}</text>
+        </navigator>
+    </view>
+    <navigator class="icon_start" url="/pages/homepage/homepage">
+      <text>开始使用小程序</text>
+    </navigator>
 </view>
