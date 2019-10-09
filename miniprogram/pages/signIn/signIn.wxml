@@ -1,3 +1,9 @@
 <view class="page_container single-page">
-  
+    <view class="login-block">
+        <text>SIGN IN</text>
+        <view>登录使用更多功能</view>
+        <view>
+
+        </view>
+    </view>
 </view>

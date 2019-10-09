@@ -1,49 +1,48 @@
 <view class="page_container page_my-life">
-  <!-- 预算支出总览 -->
-  <view class="data-overview">
-    <!-- 支出 -->
-    <!-- <text>支出\n￥{{_monthlyBill._expenditure}}</text> -->
-    <!-- 预算 -->
-    <!-- <text>预算\n￥{{_monthlyBill._budget}}</text> -->
-    <!-- 财产 -->
-    <!-- <text>资产\n￥{{_monthlyBill._treasury}}</text> -->
-    <text>预算剩余</text>
-    <text>￥{{_monthlyBill._budget - _monthlyBill._expenditure}}</text>
-  </view>
-  <view class="data-overview-monthly-balance">
-    <input placeholder="输入数值为今日预算做评估" placeholder-class="input-placeholder"></input> 
-    <navigator url="page/addRecord/addRecord">
-      <image src="./images/icon_add.png" mode="aspectFit"></image>
-      记账
-    </navigator>
-    <!-- <text>记账</text> -->
-    <view class="base_progress">
-      <view style="width: 50%"></view>
+    <!-- 预算支出总览 -->
+    <view class="data-overview">
+        <!-- 支出 -->
+        <!-- <text>支出\n￥{{_monthlyBill._expenditure}}</text> -->
+        <!-- 预算 -->
+        <!-- <text>预算\n￥{{_monthlyBill._budget}}</text> -->
+        <!-- 财产 -->
+        <!-- <text>资产\n￥{{_monthlyBill._treasury}}</text> -->
+        <text>预算剩余</text>
+        <text>￥{{_monthlyBill._budget - _monthlyBill._expenditure}}</text>
     </view>
-    <text>本月仍有结余~</text>
-  </view>
-  <view class="monthly-assessment">
-    本月到目前为止坚持良好，请继续保持~
-  </view>
-  <view class="asset-overview">
-    <text>总财产：￥{{_monthlyBill._treasury}}</text>
-    <text>预计结余：￥{{_monthlyBill._treasury}}\n</text>
-    <text>目标结余：￥{{_monthlyBill._treasury}}</text>
-    <view class="histogram">
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
-      <view></view>
+    <view class="data-overview-monthly-balance">
+        <input placeholder="输入数值为今日预算做评估" placeholder-class="input-placeholder"></input>
+        <navigator url="page/addRecord/addRecord">
+            <image src="./images/icon_add.png" mode="aspectFit"></image>
+            记账
+        </navigator>
+        <!-- <text>记账</text> -->
+        <view class="base_progress">
+            <view style="width: 50%"></view>
+        </view>
+        <text>本月仍有结余~</text>
     </view>
-  </view>
-  <view class="daily-assessment">
-    <image src="./images/icon_warning.png" mode="aspectFit"></image>
-    今日支出金额已经超出超出预算~
-  </view>
-  <view class="daily-warning">
-    <image src="./images/icon_warning.png" mode="aspectFit"></image>
-    今日消费警告!
-  </view>
+    <view class="monthly-assessment">
+        本月到目前为止坚持良好，请继续保持~
+    </view>
+    <view class="asset-overview">
+        <text>总财产：￥{{_monthlyBill._treasury}}</text>
+        <text>预计结余：￥{{_monthlyBill._treasury}}\n</text>
+        <text>目标结余：￥{{_monthlyBill._treasury}}</text>
+        <navigator class="histogram" url="/tabs/myLife/page/setTreasury/setTreasury">
+            <view></view>
+            <view></view>
+            <view></view>
+            <view></view>
+            <view></view>
+        </navigator>
+    </view>
+    <view class="daily-assessment">
+        <image src="./images/icon_warning.png" mode="aspectFit"></image>
+        今日支出金额已经超出超出预算~
+    </view>
+    <view class="daily-warning">
+        <image src="./images/icon_warning.png" mode="aspectFit"></image>
+        今日消费警告!
+    </view>
 </view>
-

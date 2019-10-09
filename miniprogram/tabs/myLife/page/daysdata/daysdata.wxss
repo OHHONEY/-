@@ -1,0 +1,23 @@
+.main-data {
+    font-size: 68rpx;
+    font-weight: bold;
+    text-align: center;
+    padding: 80rpx 0 0;
+}
+
+.add-record {
+    text-align: center;
+}
+
+.record-list {
+    padding: 0 30rpx;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.record-item image {
+    width: 64rpx;
+    height: 64rpx;
+}

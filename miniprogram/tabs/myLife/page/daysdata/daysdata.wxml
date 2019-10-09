@@ -1,0 +1,43 @@
+<view class="main-data">
+    ￥7890.23
+</view>
+
+<view class="add-record">
+    add record
+</view>
+
+<view class="record-list">
+    <text class="date">Today</text>
+    <view class="record-item">
+        <!-- 分类图标 -->
+        <image src="../../../../images/billing/cutlery.png" mode="fit"></image>
+        <!-- 分类名称 -->
+        <text>苹果</text>
+        <!-- 消费金额 -->
+        <text>￥35.00</text>
+    </view>
+    <view class="record-item">
+        <!-- 分类图标 -->
+        <image src="../../../../images/billing/apple.png" mode="fit"></image>
+        <!-- 分类名称 -->
+        <text>苹果</text>
+        <!-- 消费金额 -->
+        <text>￥35.00</text>
+    </view>
+    <view class="record-item">
+        <!-- 分类图标 -->
+        <image src="../../../../images/billing/milk.png" mode="fit"></image>
+        <!-- 分类名称 -->
+        <text>苹果</text>
+        <!-- 消费金额 -->
+        <text>￥35.00</text>
+    </view>
+    <view class="record-item">
+        <!-- 分类图标 -->
+        <image src="../../../../images/billing/noodles.png" mode="fit"></image>
+        <!-- 分类名称 -->
+        <text>苹果</text>
+        <!-- 消费金额 -->
+        <text>￥35.00</text>
+    </view>
+</view>

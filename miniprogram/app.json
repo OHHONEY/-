@@ -8,7 +8,9 @@
     "tabs/reallyOwn/reallyown",
     "tabs/myLife/page/setBill/setBill",
     "tabs/myLife/page/addRecord/addRecord",
-    "pages/signIn/signIn"
+    "pages/signIn/signIn",
+    "tabs/myLife/page/setTreasury/setTreasury",
+    "tabs/myLife/page/daysdata/daysdata"
   ],
   "window": {
     "backgroundTextStyle": "light",

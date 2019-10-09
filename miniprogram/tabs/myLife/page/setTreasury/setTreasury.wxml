@@ -1,0 +1,30 @@
+<view class="page_container">
+    <!-- 类别列表 -->
+    <!-- 0: 微信 1: 支付宝 -->
+    <view class="treasuryList">
+        <text class="title">类别</text>
+        <block wx:for='{{treasuryList}}' wx:key='type'>
+            <view data-index="{{index}}" bindtap="activeType" class="{{currentType.type == item.type ? 'active-type' : ''}}">
+                <view style="background-color: {{currentColor}}"></view>
+                {{item.typeString}}
+            </view>
+        </block>
+
+    </view>
+    <!-- 设置颜色 -->
+    <view class="set-color">
+        <text class="title">颜色\n</text>
+        <block wx:for='{{colorList}}' wx:key='index'>
+            <view style="background-color: {{item}}" data-color="{{item}}" bindtap="setColor">
+            </view>
+        </block>
+    </view>
+    <!-- 设置金额 -->
+    <view class="set-amount">
+        <text class="title">金额\n</text>
+        <view>
+            <input type="number" placeholder="请输入整数值"></input>
+            <input type="number" placeholder="请输入小数值"></input>
+        </view>
+    </view>
+</view>
