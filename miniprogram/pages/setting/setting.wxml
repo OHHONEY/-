@@ -1,0 +1,25 @@
+<navigator url="/pages/editInfo/editInfo">
+    编辑资料
+</navigator>
+<navigator url="/pages/index/index">
+    账单设置
+</navigator>
+<navigator url="/pages/index/index">
+    记录灵感
+</navigator>
+<navigator url="/pages/index/index">
+    添加主题
+</navigator>
+<navigator url="/pages/index/index">
+    移除主题
+</navigator>
+
+<navigator url="/pages/index/index">
+    联系我们
+</navigator>
+<navigator url="/pages/index/index">
+    意见反馈
+</navigator>
+<navigator url="/pages/index/index">
+    注销账户
+</navigator>

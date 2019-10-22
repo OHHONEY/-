@@ -1,0 +1,16 @@
+<!-- add a record -->
+<view class="page-root">
+  <swiper class="category-img">
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+  </swiper>
+  <text>
+    Enter the amount spent
+  </text>
+  <input type="number">
+  </input>
+  <view class="operation-block">
+    <text>Back</text>
+    <text>Next</text>
+  </view>
+</view>

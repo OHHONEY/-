@@ -1,0 +1,27 @@
+page {
+  background: #F7F9F9;
+}
+
+.setting-tips, input {
+  margin: 0 40rpx;
+  line-height: 84rpx;
+}
+
+input {
+  line-height: 84rpx;
+  height: 84rpx;
+  border: none;
+  border-bottom: 1px solid #DFE1DE;
+}
+
+.btn_submit {
+  line-height: 96rpx;
+  background: #9E5862;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 32rpx;
+}

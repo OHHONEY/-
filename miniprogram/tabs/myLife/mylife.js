@@ -6,7 +6,11 @@ const app = getApp()
 
 Page({
   data: {
-    _monthlyBill: ''
+    _monthlyBill: '',
+    month: [1,2,3,4,5,6,7,8,9],
+    moneys: [10, 20, 100, 400],
+    region: ['广东省', '广州市', '海珠区'],
+    customItem: '全部'
   },
 
   /**
@@ -31,6 +35,12 @@ Page({
     wx.hideLoading()
     this.setData({
       _monthlyBill: data
+    })
+  },
+  bindRegionChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      region: e.detail.value
     })
   }
 })

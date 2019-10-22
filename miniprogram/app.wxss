@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #fafafa;
 }
 
 /* 页面只有一页 不可滚动 */
@@ -12,8 +12,8 @@
   height: 100vh;
 }
 
-text, view {
-  color: #505050;
+text, view, navigator {
+  color: #464646;
   font-size: 28rpx;
 }
 

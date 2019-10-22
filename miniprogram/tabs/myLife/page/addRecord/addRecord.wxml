@@ -1,2 +1,17 @@
-<!--miniprogram/tabs/myLife/page/addRecord/addRecord.wxml-->
-<text>miniprogram/tabs/myLife/page/addRecord/addRecord.wxml</text>
+<!-- 分类消费占比 -->
+<view>
+  <view class="circle-outer">
+    <view class="circle-inner"></view>
+  </view>
+</view>
+
+<!-- 分类列表 -->
+<view class="items">
+  <view class="choose-item">
+    <image src="../../../../images/billing/cutlery.png" mode="aspectFit"></image>
+    <view>
+      <input></input>
+      <text>Fruit & Food</text>
+    </view>
+  </view>
+</view>

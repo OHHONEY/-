@@ -1,4 +1,4 @@
-//app.js
+//app.js app实例 全部页面共享
 App({
     /**
      * 应用全局数据
@@ -21,13 +21,22 @@ App({
         }
         this.onLogin()
     },
+    onShow: function () {
+        // when show
+    },
+    onHide: function () {
+        // background
+    },
+    onError(error) {
+        // when error occurrs
+    },
     // 登录
     onLogin: function () {
         this.callFunction('haveUserData', result => {
             if (result.data) {
-              console.log(result) 
-              this.globalData.userInfo = result.data
-              if (this.userInfoReadyCallback) this.userInfoReadyCallback(result.data)
+                console.log(result)
+                this.globalData.userInfo = result.data
+                if (this.userInfoReadyCallback) this.userInfoReadyCallback(result.data)
             }
         })
     },

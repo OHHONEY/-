@@ -1,0 +1,7 @@
+<!-- 编辑个人资料 -->
+<view class="setting-tips">设置昵称,2~24个英文字符(或1~12个中文字符的长度)</view>
+<input placeholder="月芽是粉色也是紫色的"></input>
+
+<view class="btn_submit">
+  确认修改
+</view>

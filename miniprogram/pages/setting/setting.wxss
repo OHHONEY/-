@@ -1,0 +1,13 @@
+navigator {
+  line-height: 100rpx;
+  background: #FFFFFF;
+  padding: 0 40rpx;
+}
+
+navigator:first-of-type{
+  margin: 20rpx 0;
+}
+
+page {
+  background: #F7F9F9;
+}

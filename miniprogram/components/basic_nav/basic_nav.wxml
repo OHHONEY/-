@@ -1,0 +1,4 @@
+<!-- 居中标题 -->
+<view class="nav" style="padding-top: {{statusBarHeight}}">
+  <view class="page-title">{{pageTitle}}</view>
+</view>

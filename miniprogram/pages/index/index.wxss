@@ -1,6 +1,6 @@
 .border {
   height: .5px;
-  margin: 0 40rpx;
+  margin: 0 0 0 40rpx;
   align-self: stretch;
   background: linear-gradient(to left, #EB6592, #F6C050);
 }
@@ -8,14 +8,22 @@
 navigator {
   align-self: stretch;
   display: flex;
-  height: 140rpx;
-  margin: 0 40rpx;
+  height: 120rpx;
+  padding: 0 40rpx;
+  align-items: center;
   box-sizing: border-box;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.icon_right {
+  width: 32rpx;
+  height: 32rpx;
 }
 
 .page_setting {
-  margin: 80rpx 40rpx 0;
-  height: 100rpx;
+  margin: 80rpx 0 0;
+  height: 120rpx;
 }
 
 navigator:last-of-type {
@@ -23,7 +31,7 @@ navigator:last-of-type {
 }
 
 navigator view {
-  font-size: 34rpx;
+  font-size: 32rpx;
   color: #382C12;
   display: flex;
   align-items: center;
@@ -66,7 +74,6 @@ navigator view::before{
 }
 
 .userinfo {
-  height: 140rpx;
   width: 100%;
   background: #fff;
   border-right: none;
@@ -74,7 +81,8 @@ navigator view::before{
   flex-direction: row;
   align-items: center;
   transition: all 300ms ease;
-  margin: 60rpx 40rpx 80rpx;
+  padding: 60rpx 40rpx 80rpx;
+  margin: 0 0 20rpx;
 }
 
 .userinfo-avatar {

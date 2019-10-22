@@ -32,27 +32,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
 					"pathName": "pages/databaseGuide/databaseGuide",
 					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "pages/wxIndex/wxIndex",
-					"pathName": "pages/wxIndex/wxIndex",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "tabs/reallyOwn/reallyown",
-					"pathName": "tabs/reallyOwn/reallyown",
-					"query": "",
-					"scene": null
 				},
 				{
 					"id": -1,
@@ -63,29 +49,22 @@
 				},
 				{
 					"id": -1,
-					"name": "tabs/myLife/page/setBill/setBill",
-					"pathName": "tabs/myLife/page/setBill/setBill",
+					"name": "pages/setting/setting",
+					"pathName": "pages/setting/setting",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "tabs/myLife/page/setTreasury/setTreasury",
-					"pathName": "tabs/myLife/page/setTreasury/setTreasury",
+					"name": "pages/editInfo/editInfo",
+					"pathName": "pages/editInfo/editInfo",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/signIn/signIn",
-					"pathName": "pages/signIn/signIn",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "tabs/myLife/page/daysdata/daysdata",
-					"pathName": "tabs/myLife/page/daysdata/daysdata",
+					"name": "pages/page_test/page_test",
+					"pathName": "pages/page_test/page_test",
 					"scene": null
 				}
 			]

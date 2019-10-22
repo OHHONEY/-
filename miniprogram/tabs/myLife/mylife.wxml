@@ -1,12 +1,5 @@
-<view class="page_container page_my-life">
-    <!-- 预算支出总览 -->
+<!-- <view class="page_container page_my-life">
     <view class="data-overview">
-        <!-- 支出 -->
-        <!-- <text>支出\n￥{{_monthlyBill._expenditure}}</text> -->
-        <!-- 预算 -->
-        <!-- <text>预算\n￥{{_monthlyBill._budget}}</text> -->
-        <!-- 财产 -->
-        <!-- <text>资产\n￥{{_monthlyBill._treasury}}</text> -->
         <text>预算剩余</text>
         <text>￥{{_monthlyBill._budget - _monthlyBill._expenditure}}</text>
     </view>
@@ -16,7 +9,6 @@
             <image src="./images/icon_add.png" mode="aspectFit"></image>
             记账
         </navigator>
-        <!-- <text>记账</text> -->
         <view class="base_progress">
             <view style="width: 50%"></view>
         </view>
@@ -37,12 +29,67 @@
             <view></view>
         </navigator>
     </view>
-    <view class="daily-assessment">
+    <navigator class="daily-assessment" url="/tabs/myLife/page/daysdata/daysdata">
         <image src="./images/icon_warning.png" mode="aspectFit"></image>
         今日支出金额已经超出超出预算~
-    </view>
-    <view class="daily-warning">
+    </navigator>
+    <navigator class="daily-warning">
         <image src="./images/icon_warning.png" mode="aspectFit"></image>
         今日消费警告!
-    </view>
+    </navigator>
+</view> -->
+
+<view class="tips">
+    <text>预算剩余</text>
+    <text>Add +</text>
 </view>
+
+<view class="balance">
+    $4720.00
+</view>
+
+<view class="operation">
+    <navigator url="/pages/signIn/signIn">零钱明细
+        <image src="./images/icon_balance.png" mode="aspectFit"></image>
+    </navigator>
+    <navigator url="/pages/signIn/signIn">支出明细
+        <image src="./images/icon_list.png" mode="aspectFit"></image>
+    </navigator>
+</view>
+
+<!-- 消费折线图 -->
+<!-- 金额和天 -->
+
+<view class="expenditure-line-chart">
+    <canvas canvas-id="line-chart"></canvas>
+</view>
+
+<!-- <view class="other">
+    <view class="estimate">
+        <text>输入一笔计划消费金额，来计算次笔消费对月支出的影响</text>
+        <input placeholder="$100" placeholder-class="input-placeholder"></input>
+        <text>正常消费！</text>
+    </view>
+
+    <view class="expenditure-line-chart background">
+    </view>
+
+</view> -->
+
+<view class="timeline">
+  <view>
+    <text>06.31</text>
+  </view>
+  <view>
+    <text>06.30</text>
+  </view>
+  <view>
+    <text>06.29</text>
+  </view>
+</view>
+
+<picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>

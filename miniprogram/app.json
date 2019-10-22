@@ -2,15 +2,42 @@
   "pages": [
     "pages/index/index",
     "pages/index",
-    "tabs/myLife/mylife",
-    "tabs/Impressive/impressive",
-    "tabs/Friendship/friendship",
-    "tabs/reallyOwn/reallyown",
-    "tabs/myLife/page/setBill/setBill",
-    "tabs/myLife/page/addRecord/addRecord",
     "pages/signIn/signIn",
-    "tabs/myLife/page/setTreasury/setTreasury",
-    "tabs/myLife/page/daysdata/daysdata"
+    "pages/setting/setting",
+    "pages/editInfo/editInfo",
+    "pages/basic_page/basic_page",
+    "pages/page_test/page_test"
+  ],
+  "subPackages": [
+    {
+      "root": "tabs/Friendship",
+      "pages": [
+        "friendship"
+      ]
+    },
+    {
+      "root": "tabs/Impressive",
+      "pages": [
+        "impressive"
+      ]
+    },
+    {
+      "root": "tabs/myLife",
+      "pages": [
+        "mylife",
+        "page/setBill/setBill",
+        "page/addRecord/addRecord",
+        "page/setTreasury/setTreasury",
+        "page/daysdata/daysdata",
+        "page/add/add"
+      ]
+    },
+    {
+      "root": "tabs/reallyOwn",
+      "pages": [
+        "reallyown"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",

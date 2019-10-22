@@ -7,15 +7,27 @@
       class="userinfo-avatar"
       style="background-image: url({{avatarUrl}})"
     ></button>
-    <text>{{userInfo.nickName}}</text>
+    <!-- <text>{{userInfo.nickName}}</text> -->
+    <view>
+      <text>可消费</text>
+      <text>￥10000</text>
+    </view>
+    <view>
+      <text>坚持状态</text>
+      <text>ing</text>
+    </view>
+    <view>
+      <text>坚持状态</text>
+      <text>ing</text>
+    </view>
   </view>
 
-  <view class="border"></view>
   <!-- 日常篇 -->
   <navigator url="/tabs/myLife/mylife">
     <view class="page_my-life">
       我的手账
     </view>
+    <image class="icon_right" src="../../assets/icon_right.png"></image>
   </navigator>
   <view class="border"></view>
 
@@ -24,6 +36,7 @@
     <view class="page_impressive">
       我已经放弃你了嘛
     </view>
+    <image class="icon_right" src="../../assets/icon_right.png"></image>
   </navigator>
   <view class="border"></view>
 
@@ -32,6 +45,7 @@
     <view class="page_friendship">
       第一次要的事
     </view>
+    <image class="icon_right" src="../../assets/icon_right.png"></image>
   </navigator>
   <view class="border"></view>
 
@@ -40,22 +54,16 @@
     <view class="page_reallyOwn">
       变成我生活的一部分么
     </view>
+    <image class="icon_right" src="../../assets/icon_right.png"></image>
   </navigator>
   <view class="border"></view>
 
   <!-- 变成我生活的一部分么 爱情 -->
-  <navigator class="page_setting" url="/tabs/reallyOwn/reallyown">
+  <navigator class="page_setting" url="/pages/setting/setting">
     <view>
       设置
     </view>
   </navigator>
-  <!-- <view class="border"></view> -->
-
-  <!-- <navigator url="/tabs/reallyOwn/reallyown">
-    <view class="page_sign-out">
-      退出登录
-    </view>
-  </navigator> -->
 
 </view>
 

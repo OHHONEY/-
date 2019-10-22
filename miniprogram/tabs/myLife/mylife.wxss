@@ -2,6 +2,10 @@
   background: #FEE1C6;
 }
 
+text {
+  color: inherit;
+}
+
 .page_container {
   align-items: stretch;
 }
@@ -120,4 +124,167 @@
 
 .histogram > view:nth-of-type(1) {
   margin: 0 32rpx 0 0;
+}
+
+.tips, operation {
+  padding: 20rpx 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tips > text {
+  font-size: 32rpx;
+}
+
+.tips > text:nth-of-type(1) {
+  color: #D3D3E0;
+}
+
+.tips > text:nth-of-type(2) {
+  color: #61CED1;
+  font-weight: bold;
+}
+
+.balance {
+  padding: 0 60rpx;
+  font-size: 64rpx;
+  color: #1E155E;
+}
+
+.operation {
+  display: flex;
+  justify-content: center;
+  margin: 40rpx 0 0;
+}
+
+.operation > navigator {
+  padding: 20rpx 40rpx;
+  border-radius: 64rpx;
+  border: 1px solid #ECEBF0;
+  margin: 0 16rpx 0 16rpx;
+  color: #1E155E;
+  display: flex;
+  align-items: center;
+}
+
+.operation image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 16rpx;
+}
+
+.expenditure-line-chart {
+  margin: 40rpx 32rpx;
+  height: 300rpx;
+  /* background: #F8F8FA; */
+}
+
+.expenditure-line-chart canvas {
+  width: 100%;
+  height: 100%;
+  background: #F8F8FA;
+}
+
+.estimate {
+  margin: 40rpx 60rpx;
+  color: #61568D;
+}
+.estimate input, .estimate button {
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  display: block;
+  width: 100%;
+  margin: 20rpx 0 20rpx;
+}
+
+.estimate input {
+  color: #61CED1;
+}
+
+.estimate button{
+  color: #FFFFFF;
+  background: #291C64;
+  margin: 0 0 0 40rpx;
+  font-size: 32rpx;
+  padding: 20rpx 40rpx;
+  line-height: 1;
+  border-radius: 64rpx;
+}
+
+.estimate input {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid #ECEBF0;
+}
+
+.base_progress {
+  background: #61CED1;
+  margin: 40rpx 0 0;
+}
+
+.base_progress view {
+  background: #FFFFFF;
+}
+
+
+.other {
+  background: #F8F8FA;
+  padding: 20rpx 0;
+}
+
+.input-placeholder {
+  color: #90CFD0;
+  font-size: 32rpx;
+}
+
+
+.background {
+  background: #FFFFFF;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0 64rpx;
+}
+
+.timeline > view {
+  width: 32rpx;
+  height: 32rpx;
+  margin: 80rpx 0;
+  position: relative;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: #61568D;
+}
+
+.timeline > view::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 32rpx;
+  height: 32rpx;
+  background: #90CFD0;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+
+
+.timeline > view::after {
+  content: '';
+  position: absolute;
+  top: -80rpx;
+  left: 16rpx;
+  height: 192rpx;
+  width: 4rpx;
+  background: #ECEBF0;
+  z-index: 1;
+  transform: translate(-50%, 0);
 }
